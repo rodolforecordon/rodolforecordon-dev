@@ -1,5 +1,12 @@
+import Heading from './components/Heading';
+
 function App() {
-  return <div>Hey, it's working.</div>;
+  return (
+    <main>
+      <Heading />
+      <div>Hey, it's working.</div>
+    </main>
+  );
 }
 
 export default App;
