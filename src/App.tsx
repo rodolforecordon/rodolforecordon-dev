@@ -1,11 +1,17 @@
-import Heading from './components/Heading';
+import { Fragment } from 'react';
+import NavBar from './components/NavBar';
+import PageContent from './components/PageContent';
 
 function App() {
   return (
-    <main>
-      <Heading />
-      <div>Hey, it's working.</div>
-    </main>
+    <Fragment>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        <PageContent />
+      </main>
+    </Fragment>
   );
 }
 
