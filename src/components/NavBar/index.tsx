@@ -1,12 +1,13 @@
 import AppNavLink from './AppNavLink';
 import classes from './NavBar.module.css';
+import logo from '../../assets/logo-signature-green.svg';
 
 const links = ['/profile', '/projects', '/posts', '/contacts', '/store'];
 
 const NavBar = () => (
   <nav>
     <a className={classes.logo} href="/">
-      LOGO
+      <img src={logo} alt="logo-rodolfo-recordon-dev" />
     </a>
     <ul>
       <AppNavLink to="/profile">Profile</AppNavLink>
